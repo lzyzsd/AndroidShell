@@ -216,4 +216,15 @@ adb pull $path/databases/$db_name
 open $db_name
 ```
 
+### ScreenRecord for 4.4 and later
 
+```
+adb shell screenrecord /sdcard/demo.mp4
+```
+
+### pull database
+
+```
+adb shell "run-as com.app chmod 666 /data/data/com.app/databases/app.db"
+adb pull /data/data/com.app/databases/app.db
+```
