@@ -216,12 +216,6 @@ adb pull $path/databases/$db_name
 open $db_name
 ```
 
-### ScreenRecord for 4.4 and later
-
-```
-adb shell screenrecord /sdcard/demo.mp4
-```
-
 ### pull database
 
 ```
